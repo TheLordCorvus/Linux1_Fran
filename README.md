@@ -10,7 +10,7 @@ git clone REPO_URL
 Commit and push changes to Github
 ```bash
 git add .
-git commit -s "A relevant commit message"
+git commit -m "A relevant commit message"
 git push
 ```
 
