@@ -33,7 +33,11 @@ Use mv to move files to destination
 
 mv #file_name.file_type  #destination directory/
 
---Return file from new destination to old
+```
+
+Return file from new destination to old
+
+```bash
 
 cd new directory
 mv file_name.file_type ..
