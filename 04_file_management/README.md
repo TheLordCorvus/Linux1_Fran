@@ -31,7 +31,12 @@ Use mv to move files to destination
 
 ```bash
 
-mv #file_name.file_type -t #destination directory
+mv #file_name.file_type  #destination directory/
+
+--Return file from new destination to old
+
+cd new directory
+mv file_name.file_type ..
 
 ```
 
