@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+
+echo "Input and output"
+
+# Output redirection
+echo '# Input and output' > README.md
+
+# Clobering -> overwrite content
+
+echo "Blah blah blah" > README.md
+
+
+echo >> README.md
+
+ls >> README.md
