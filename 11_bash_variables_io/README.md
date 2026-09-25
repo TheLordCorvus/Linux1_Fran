@@ -2,6 +2,7 @@
 
 Test image
 
-![Test image](test_image.png)
+![Trial image](test_image.png)
+
 
 
