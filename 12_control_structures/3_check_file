@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+
+file_patch=$1
+
+if [[ -f "$file_patch" ]]; then
+    echo "file '$file_patch' exists"
+else
+    echo "file '$file_patch' not exist"
+    exit 1
+fi
+
