@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+fruits=(apple pear banana kiwi)
+
+for fruit in "${fruits[@]}"; do
+    echo "Yummy fruit \"$fruit\""
+done
+
